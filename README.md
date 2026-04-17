@@ -28,8 +28,8 @@ uv run main.py
 
 ### Script Features
 - **Automatic SVG Conversion**: Converts SVG to a drawing using `svglib` and renders it via `reportlab` directly into a `BytesIO` buffer.
-- **Dynamic Scaling**: Scales the watermark to 20% of the base image's width while maintaining the aspect ratio.
-- **Smart Positioning**: Automatically places the watermark in the bottom-right corner with a configurable margin.
+- **Dynamic Scaling**: Scales the watermark to 12% of the base image's width while maintaining the aspect ratio.
+- **Smart Positioning**: Automatically places the watermark in the top-left corner with a configurable margin.
 - **Fallback Support**: Creates a 16:9 placeholder image if the input file is missing, allowing you to test the watermarking logic immediately.
 
 ## Output
